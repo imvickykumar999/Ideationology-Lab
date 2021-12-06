@@ -1,4 +1,4 @@
-# Ideationology Lab
+# Agenda @ Ideationology Lab
 
 ## [Upload on PYPI](https://pypi.org/project/vanks/)
 
