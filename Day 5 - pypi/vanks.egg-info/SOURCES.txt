@@ -1,0 +1,9 @@
+MANIFEST.in
+Readme.txt
+setup.py
+vanks.egg-info/PKG-INFO
+vanks.egg-info/SOURCES.txt
+vanks.egg-info/dependency_links.txt
+vanks.egg-info/top_level.txt
+vicks/__init__.py
+vicks/account.py
