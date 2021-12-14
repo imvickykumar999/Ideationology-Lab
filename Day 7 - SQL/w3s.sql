@@ -76,3 +76,98 @@ FROM Orders
 RIGHT JOIN Employees ON Orders.EmployeeID = Employees.EmployeeID
 ORDER BY Orders.OrderID;
 
+SELECT MIN(Price) AS SmallestPrice
+FROM Products;
+
+SELECT MAX(Price) AS LargestPrice
+FROM Products;
+
+SELECT COUNT(ProductID)
+FROM Products;
+
+SELECT AVG(Price)
+FROM Products;
+
+SELECT * FROM Customers
+WHERE CustomerName LIKE '%or%';
+
+SELECT * FROM Customers
+WHERE City LIKE '_ondon';
+
+SELECT * FROM Customers
+WHERE City LIKE '[bsp]%';
+
+SELECT * FROM Customers
+WHERE City LIKE '[a-c]%';
+
+SELECT * FROM Customers
+WHERE Country IN ('Germany', 'France', 'UK');
+
+SELECT Country FROM Suppliers;
+
+SELECT * FROM Customers
+WHERE Country IN (SELECT Country FROM Suppliers);
+
+SELECT * FROM Products
+WHERE Price BETWEEN 10 AND 20;
+
+SELECT * FROM Products
+WHERE Price BETWEEN 10 AND 20
+AND CategoryID NOT IN (1,2,3);
+
+SELECT * FROM Products
+WHERE ProductName BETWEEN 'Carnarvon Tigers' AND 'Mozzarella di Giovanni'
+ORDER BY ProductName;
+
+SELECT * FROM Orders
+WHERE OrderDate BETWEEN '1996-07-01' AND '1996-07-31';
+
+-- SQL Aliases
+
+/*
+SQL aliases are used to give a table, 
+or a column in a table, a temporary name.
+
+Aliases are often used to make column names more readable.
+*/
+
+SELECT CustomerID AS ID, CustomerName AS Customer
+FROM Customers;
+
+SELECT CustomerName, CONCAT(Address,', ',PostalCode,', ',City,', ',Country) AS Address
+FROM Customers;
+
+SELECT CustomerName, Address + ', ' + PostalCode + ' ' + City + ', ' + Country AS Address
+FROM Customers;
+
+SELECT o.OrderID, o.OrderDate, c.CustomerName
+FROM Customers AS c, Orders AS o
+WHERE c.CustomerName='Around the Horn' AND c.CustomerID=o.CustomerID;
+
+SELECT Orders.OrderID, Orders.OrderDate, Customers.CustomerName
+FROM Customers, Orders
+WHERE Customers.CustomerName='Around the Horn' AND Customers.CustomerID=Orders.CustomerID;
+
+INSERT INTO Customers (CustomerName, City, Country)
+SELECT SupplierName, City, Country FROM Suppliers;
+
+select * from customers;
+
+SELECT CustomerName, City, Country
+FROM Customers
+ORDER BY
+(CASE
+    WHEN City IS NULL THEN Country
+    ELSE City
+END);
+
+-- -------------------------------
+
+CREATE TABLE TestTable AS
+SELECT customername, contactname
+FROM customers;
+
+select * from TestTable;
+
+ -- ------------------------------
+
