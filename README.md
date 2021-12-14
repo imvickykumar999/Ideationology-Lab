@@ -14,5 +14,5 @@
 ## [MYSQL IDE](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all)
 
 - [MYSQL Workbench Download](https://dev.mysql.com/downloads/file/?id=508935)
-- [PYPI](https://pypi.org/project/mysql-connector-python/)
+- [PYPI : pip install mysql-connector-python](https://pypi.org/project/mysql-connector-python/)
 - [W3S Queries](https://www.w3schools.com/sql/default.asp)
