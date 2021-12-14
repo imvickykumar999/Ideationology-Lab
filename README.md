@@ -8,3 +8,9 @@
 
 ## To Create a website using Flask Framework...
 [![image](https://user-images.githubusercontent.com/50515418/144460525-5dc7d796-86ed-45ed-a496-8a09181275da.png)](https://imvickykumar999.herokuapp.com/news)
+
+----------------------------------------
+
+## MYSQL with Pandas
+- https://dev.mysql.com/downloads/file/?id=508935
+- https://pypi.org/project/mysql-connector-python/
