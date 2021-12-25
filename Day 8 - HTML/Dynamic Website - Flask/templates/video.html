@@ -1,42 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
-<html>
-    <head>
-        <meta charset='utf-8'>
-        <link rel="icon" href="static/wings.png">
-        <title>Portfolio</title>
+<head>
+  <meta charset="utf-8">
 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    </head>
+  <title>Portfolio</title>
+</head>
 
-    <body>
-        <center>
-            
-            <div class="jumbotron">
-                <div class="container">
-                    <div class="alert alert-danger" role="alert">
-                        <h1>
-                            <strong>
-                                <em style="color:rgb(202, 19, 28);">
-                                    This is Video : {{vid}}
-                                </em>
-                            </strong>
-                        </h1>
-                    </div>
-                </div>
-            </div>
+<body>
+  <h1>Portfolio</h1>
 
-            <div class="jumbotron">
-                <div class="container">
-                    <iframe
-                        width="720" height="405"
-                        allow="autoplay; encrypted-media" allowfullscreen
-                        src="https://www.youtube.com/embed/{{vid}}?autoplay=1">
-                    </iframe>
-                </div>
-            </div>
+  <a
+  target="_blank"
+  href="https://www.youtube.com/watch?v=rJ1iA-33fss">
+    <img
+      src="https://avatars.githubusercontent.com/u/50515418?v=4"
+      width="400"
+      height="100%"
+      alt="photo">
+  </a>
 
-        </center>
-    </body>
+  <p>
+    <h2 style="color:blue">
+      College :
+    </h2>
+
+    <a href="https://www.rietjaipur.ac.in/">
+      <h4>
+        Rajasthan Institute of Engineering and Technology, Jaipur.
+      </h4>
+    </a>
+
+  </p>
+
+  <iframe
+    width="420"
+    height="360"
+    src="https://www.youtube.com/embed/{{vid}}">
+  </iframe>
+
+</body>
 </html>
