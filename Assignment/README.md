@@ -1,0 +1,6 @@
+# Submit after Holiday...
+------------
+## Last date : 3 January 2022
+- There are 2 files here...
+- First is -> Functions_Loops_Conditions_Strings.ipynb which need to solve by you guys, and
+- Second file is -> Sets_Dict_Lists_Tuples (Solved).ipynb which is already Solved and you just need to run in your laptop and practice.
