@@ -1,0 +1,14 @@
+MANIFEST.in
+Readme.txt
+setup.py
+firicks.egg-info/PKG-INFO
+firicks.egg-info/SOURCES.txt
+firicks.egg-info/dependency_links.txt
+firicks.egg-info/top_level.txt
+vicks/__init__.py
+vicks/async_fb.py
+vicks/decorators.py
+vicks/firebase.py
+vicks/firebase_token_generator.py
+vicks/jsonutil.py
+vicks/lazy.py
