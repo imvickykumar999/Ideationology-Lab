@@ -2,6 +2,12 @@
 
 ----------------------------------------
 
+## Firebase + [Vicks](https://github.com/imvickykumar999/Ideationology-Lab/blob/main/Day%209%20-%20API/APIs/fir%2Bicks.ipynb) = Fir.icks [Database](https://console.firebase.google.com/u/0/project/vickservice-36ac9/database/vickservice-36ac9-default-rtdb/data)
+
+[![Typing SVG](http://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=pip+install+firicks)](https://pypi.org/project/firicks/)
+
+-----------------------------------------------
+
 ## [MYSQL IDE](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all)
 
 - [MYSQL Workbench Download](https://dev.mysql.com/downloads/file/?id=508935)
