@@ -1,3 +1,4 @@
+
 def callviews(passw):
     import crud
     obj1 = crud.vicks(passw, link = 'https://home-automation-336c0-default-rtdb.firebaseio.com/')
@@ -6,7 +7,7 @@ def callviews(passw):
     obj1.push(data = pageviews, child = 'Views')
     return pageviews
 
-# passw = '@Hey_Vicks'
-passw = input('Enter Password : ')
-g = callviews(passw)
-print(g)
+passw = '@Hey_Vicks'
+# passw = input('Enter Password : ')
+# g = callviews(passw)
+# print(g)
