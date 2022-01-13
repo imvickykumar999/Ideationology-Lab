@@ -4,11 +4,16 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    vid = request.args.get('vid')
+    import pageview as pv
+    up = pv.run()
 
+    vid = request.args.get('vid')
     if vid == None:
         vid = 'KZehm-meGMg'
-    return render_template('index.html', vid=vid)
+
+    return render_template('index.html', vid=vid,
+                            g=up[0], url=up[1]
+                            )
 
 @app.errorhandler(404)
 def page_not_found(e):
