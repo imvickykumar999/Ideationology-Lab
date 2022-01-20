@@ -8,15 +8,16 @@
   </head>
 
   <body>
-    {% for i in mv %}
-      <h2>{{i['name']}}</h2>
 
-      <a target = '_blank' href="{{i['url']}}">
-        <img src="{{i['url']}}" height="500px">
-      </a>
+    {% for i in lst %}
+
+      {% for j in i %}
+        {{j}}
+        <br><br>
+      {% endfor %}
 
       <br><br>
     {% endfor %}
-  </body>
 
+  </body>
 </html>
