@@ -40,7 +40,7 @@ try:
     plt.ylabel("Git Commit")
 
     plt.plot(xpoints, ypoints)
-    # plt.show()
+    plt.show()
     fig.savefig(f'user/{user}.png')
     print('Graph saved')
 
