@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+img {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+}
+
+</style>
+</head>
+<body>
+
+<div onmousemove="showCoords(event)" onmouseout="clearCoor()">
+  <center>
+    <img src="drake.jpg" alt="">
+  </center>
+</div>
+
+<p id="demo"></p>
+
+<script>
+function showCoords(event) {
+  var x = event.clientX;
+  var y = event.clientY;
+  var coor = "X coords: " + x + ", Y coords: " + y;
+  document.getElementById("demo").innerHTML = coor;
+}
+
+function clearCoor() {
+  document.getElementById("demo").innerHTML = "";
+}
+</script>
+
+</body>
+</html>

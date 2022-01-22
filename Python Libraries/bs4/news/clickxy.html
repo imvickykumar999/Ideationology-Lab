@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+      img {
+        width: 500px;
+        height: 500px;
+        border: 1px solid black;
+      }
+
+    </style>
+  </head>
+  <body>
+
+  <p>Click in the div element below to get the x (horizontal) and y (vertical) coordinates of the mouse pointer, when it is clicked.</p>
+
+  <div onclick="showCoords(event)">
+    <center>
+      <img src="drake.jpg" alt="">
+    </center>
+  </div>
+
+  <p id="demo"></p>
+  <p><strong>Tip:</strong> Try to click different places in the div.</p>
+
+  <script>
+    function showCoords(event) {
+        var cX = event.clientX;
+        var sX = event.screenX;
+        var cY = event.clientY;
+        var sY = event.screenY;
+      var coords1 = "client - X: " + cX + ", Y coords: " + cY;
+      var coords2 = "screen - X: " + sX + ", Y coords: " + sY;
+      document.getElementById("demo").innerHTML = coords1 + "<br>" + coords2;
+    }
+  </script>
+
+  </body>
+</html>
