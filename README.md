@@ -6,19 +6,13 @@
 
 ----------------------------------------
 
-## Firebase + [Vicks](https://github.com/imvickykumar999/Ideationology-Lab/blob/main/Day%209%20-%20API/APIs/counter.py) = [Fir.icks](https://github.com/imvickykumar999/firicks) [Database](https://console.firebase.google.com/u/0/project/vickservice-36ac9/database/vickservice-36ac9-default-rtdb/data)
-
-[![Typing SVG](http://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=pip+install+firicks)](https://pypi.org/project/firicks/)
-
------------------------------------------------
-
 ## [MYSQL IDE](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all)
 
 - [MYSQL Workbench Download](https://dev.mysql.com/downloads/file/?id=508935)
 - [PYPI : pip install mysql-connector-python](https://pypi.org/project/mysql-connector-python/)
 - [W3S Queries](https://www.w3schools.com/sql/default.asp)
 
-[![ss](https://github.com/imvickykumar999/Ideationology-Lab/blob/main/Day%207%20-%20SQL/ss.png?raw=true)](https://github.com/imvickykumar999/Ideationology-Lab/blob/main/Day%207%20-%20SQL/w3s.sql)
+[![ss](https://github.com/imvickykumar999/Ideationology-Lab/blob/main/SQL/ss.png?raw=true)](https://github.com/imvickykumar999/Ideationology-Lab/blob/main/SQL/w3s.sql)
 
 ------------------------------------------------
 
@@ -33,3 +27,9 @@
 
 [![image](https://user-images.githubusercontent.com/50515418/144460525-5dc7d796-86ed-45ed-a496-8a09181275da.png)](https://imvickykumar999.herokuapp.com/news)
 
+
+## Firebase + [Vicks](https://github.com/imvickykumar999/Ideationology-Lab/blob/main/Day%209%20-%20API/APIs/counter.py) = [Fir.icks](https://github.com/imvickykumar999/firicks) [Database](https://console.firebase.google.com/u/0/project/vickservice-36ac9/database/vickservice-36ac9-default-rtdb/data)
+
+[![Typing SVG](http://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=pip+install+firicks)](https://pypi.org/project/firicks/)
+
+-----------------------------------------------
