@@ -15,7 +15,10 @@ def index():
     v = res['data']
     mv = list(v.values())[0]
 
-    return render_template('index.html', mv=mv)
+    return render_template('index.html',
+                            mv=mv,
+                            rangex=range(len(mv)),
+                            )
 
 
 @app.route('/news')
@@ -35,7 +38,8 @@ def news():
 
     lst = [heading, imagex, bodyx, readmore]
     return render_template('news.html',
-                            lst=lst
+                            lst=lst,
+                            rangex=range(len(lst[0])),
                           )
 
 

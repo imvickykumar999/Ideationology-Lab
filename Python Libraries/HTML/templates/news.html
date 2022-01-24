@@ -9,12 +9,16 @@
 
   <body>
 
-    {% for i in lst %}
+    {% for i in rangex %}
+      {{i+1}}). {{lst[0][i].text}}
+      <br>
 
-      {% for j in i %}
-        {{j}}
-        <br><br>
-      {% endfor %}
+      <img
+      width="500px"
+      src="{{lst[1][i]['style'].split("'")[1]}}">
+
+      <br>
+      {{lst[2][i].text}}
 
       <br><br>
     {% endfor %}
