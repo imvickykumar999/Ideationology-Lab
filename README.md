@@ -2,8 +2,9 @@
 
 -----------------------------
 
-## 🔥 Tutorial : Google Spreadsheets [with python](https://www.analyticsvidhya.com/blog/2020/07/read-and-update-google-spreadsheets-with-python/)
+## 🔥 Tutorial : Read Google Spreadsheets with Python
 
+- [Referenced Article](https://www.analyticsvidhya.com/blog/2020/07/read-and-update-google-spreadsheets-with-python/)
 - [My Stackoverflow Answered](https://stackoverflow.com/a/70825050/11493297)
 - [Explained Code](https://github.com/imvickykumar999/Ideationology-Lab/tree/main/Python%20Libraries/google%20cloud%20console/tutorial)
 - [Tutorial Video on my YouTube](https://youtu.be/CSulY72GiX4)
