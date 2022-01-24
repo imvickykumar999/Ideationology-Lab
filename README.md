@@ -4,9 +4,9 @@
 
 ## 🔥 Tutorial : Google Spreadsheets [with python](https://www.analyticsvidhya.com/blog/2020/07/read-and-update-google-spreadsheets-with-python/)
 
-- [Code.py](https://github.com/imvickykumar999/Ideationology-Lab/blob/main/Python%20Libraries/google%20forms/finalGform.py)
 - [My Stackoverflow Answered](https://stackoverflow.com/a/70825050/11493297)
-- [Explained.ipynb](https://github.com/imvickykumar999/Ideationology-Lab/blob/main/Python%20Libraries/google%20forms/final%20google%20forms%20access.ipynb)
+- [Explained Code](https://github.com/imvickykumar999/Ideationology-Lab/tree/main/Python%20Libraries/google%20cloud%20console/tutorial)
+- [Tutorial Video on my YouTube](https://youtu.be/CSulY72GiX4)
 
 ----------------------------
 
