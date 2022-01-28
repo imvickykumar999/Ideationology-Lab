@@ -6,7 +6,7 @@
 
 - [Referenced Article](https://www.analyticsvidhya.com/blog/2020/07/read-and-update-google-spreadsheets-with-python/)
 - [My Stackoverflow Answered](https://stackoverflow.com/a/70825050/11493297)
-- [Explained Code](https://github.com/imvickykumar999/Ideationology-Lab/tree/main/Python%20Libraries/google%20cloud%20console/tutorial)
+- [Explained Code](https://github.com/imvickykumar999/Ideationology-Lab/tree/main/Libraries/google%20cloud%20console/tutorial)
 - [Tutorial Video on my YouTube](https://youtu.be/CSulY72GiX4)
 
 ----------------------------
@@ -27,7 +27,7 @@
 
 ## [Upload on PYPI](https://pypi.org/project/vanks/)
 
-[![image](https://user-images.githubusercontent.com/50515418/144895162-62e1681c-a1c4-4f47-ba88-f5905daf6b58.png)](https://github.com/imvickykumar999/Ideationology-Lab/tree/main/Day%205%20-%20pypi)
+[![image](https://user-images.githubusercontent.com/50515418/144895162-62e1681c-a1c4-4f47-ba88-f5905daf6b58.png)](https://github.com/imvickykumar999/Ideationology-Lab/tree/main/pypi/tutorials%20vanks)
 
 -------------------------------------------
 
