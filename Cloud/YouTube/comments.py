@@ -2,32 +2,37 @@
 api_key = 'AIzaSyC3EsHgVkGg11WfvEgVYuamubsGsjq1n-I'
 # api_key = 'AIzaSyCcJX4qdbo9caqxZSKDmuBjNVWfvq8_Wcs'
 
-def comments(video_id = 'Cpc_rHf1U6g'):
-    from googleapiclient.discovery import build
+from googleapiclient.discovery import build
+
+# creating youtube resource object
+youtube = build('youtube', 'v3',
+                developerKey=api_key)
+
+def yts(q = 'puppies', maxResults = 10):
+    dogs_videos_ids = youtube.search().list(
+        part="id",
+        type='video',
+        regionCode="US",
+        order="relevance",
+        q=q,
+        maxResults=maxResults,
+        fields="items(id(videoId))",
+    ).execute()
+
+    return dogs_videos_ids
+
+
+def com(video_id = 'Cpc_rHf1U6g'):
 
     dict = {}
-
-    # def video_comments(video_id):
     # empty list for storing reply
     replies = []
 
-    # creating youtube resource object
-    youtube = build('youtube', 'v3',
-                    developerKey=api_key)
-
-    # retrieve youtube video results
     video_response=youtube.commentThreads().list(
     part='snippet,replies',
     videoId=video_id
     ).execute()
 
-    # print(video_response)
-
-    # iterate video response
-    # while video_response:
-
-    # extracting required info
-    # from each result object
     for item in video_response['items']:
 
         # Extracting comments
@@ -54,20 +59,12 @@ def comments(video_id = 'Cpc_rHf1U6g'):
 
         # empty reply list
         replies = []
-
     return dict
 
 
 # https://www.thepythoncode.com/article/using-youtube-api-in-python
 
-def tvl(vid = 'hlznpxNGFGQ'):
-    from googleapiclient.discovery import build
-
-    # video_id = input('Enter video URL or ID : ')
-    video_id = vid
-
-    youtube = build('youtube','v3',
-    developerKey=api_key)
+def tvl(video_id = 'hlznpxNGFGQ'):
 
     video_request=youtube.videos().list(
         part='snippet,statistics',
