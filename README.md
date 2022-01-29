@@ -1,4 +1,13 @@
-# Agenda @ Ideationology Lab : Google [Cloud](https://github.com/imvickykumar999/Ideationology-Lab/tree/main/Cloud) Console
+# >>> Agenda @ Ideationology Lab : Google [Cloud](https://github.com/imvickykumar999/Ideationology-Lab/tree/main/Cloud) Console
+
+----------------------
+
+## ✨ Google Chat : [Tutorial.py](https://github.com/imvickykumar999/Ideationology-Lab/blob/main/Cloud/Hangouts/tutorial/quickstart.py)
+
+- [Chat API](https://developers.google.com/chat/api/guides/message-formats/basic)
+- [Chat Space](https://mail.google.com/chat/u/2/#chat/space/AAAA-pCtR2s)
+
+[![image](https://user-images.githubusercontent.com/50515418/151678495-4fbceca5-808b-4ca4-b409-d49631bc00e5.png)](https://docs.google.com/spreadsheets/d/1Va2O06m-sBdjHmxkvl4TpkC-ghm6U8jkFxhShDHDWLE/edit?usp=sharing)
 
 -----------------------------
 
@@ -11,7 +20,7 @@
 
 ----------------------------
 
-## Flask [Tutorial](https://github.com/imvickykumar999/website)
+## >>> Flask [Tutorial](https://github.com/imvickykumar999/website)
 
 ----------------------------------------
 
@@ -37,7 +46,7 @@
 [![image](https://user-images.githubusercontent.com/50515418/144460525-5dc7d796-86ed-45ed-a496-8a09181275da.png)](https://imvickykumar999.herokuapp.com/news)
 
 
-## Firebase + [Vicks](https://github.com/imvickykumar999/Ideationology-Lab/blob/main/Day%209%20-%20API/APIs/counter.py) = [Fir.icks](https://github.com/imvickykumar999/firicks) [Database](https://console.firebase.google.com/u/0/project/vickservice-36ac9/database/vickservice-36ac9-default-rtdb/data)
+## Firebase + Vicks = [Fir.icks](https://github.com/imvickykumar999/firicks) -> [Database](https://console.firebase.google.com/u/0/project/vickservice-36ac9/database/vickservice-36ac9-default-rtdb/data)
 
 [![Typing SVG](http://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=pip+install+firicks)](https://pypi.org/project/firicks/)
 
