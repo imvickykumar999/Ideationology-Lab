@@ -1,6 +1,16 @@
 # >>> Agenda @ Ideationology Lab : Google [Cloud](https://github.com/imvickykumar999/Ideationology-Lab/tree/main/Cloud) Console
 
-----------------------
+------------------------------
+
+## ✨YouTube API
+
+- [API Key](https://console.cloud.google.com/iam-admin/serviceaccounts/details/105103137035687901193;edit=true/keys?project=ideationology-lab)
+- [Tutorial](https://medium.com/mcd-unison/youtube-data-api-v3-in-python-tutorial-with-examples-e829a25d2ebd)
+- [Code](https://github.com/imvickykumar999/Ideationology-Lab/blob/main/Cloud/YouTube/V3%20API.ipynb)
+
+[![image](https://user-images.githubusercontent.com/50515418/153022902-685691d1-5539-4df1-92f1-b41c3f7ebc33.png)](https://medium.com/mcd-unison/youtube-data-api-v3-in-python-tutorial-with-examples-e829a25d2ebd)
+
+------------------------------------
 
 ## ✨ Google Chat : [Tutorial.py](https://github.com/imvickykumar999/Ideationology-Lab/blob/main/Cloud/Hangouts/tutorial/quickstart.py)
 
