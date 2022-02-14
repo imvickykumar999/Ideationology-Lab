@@ -17,8 +17,8 @@ net = cv2.dnn.readNetFromDarknet(modelConfiguration, modelWeights)
 outputLayer = net.getLayerNames()
 outputLayer = [outputLayer[i - 1] for i in net.getUnconnectedOutLayers()]
 
-input_file = 'video.mp4'
-output_file = 'detected_video.avi'
+input_file = '1641200571.mp4'
+output_file = input_file + '.avi'
 video = cv2.VideoCapture(input_file)
 
 writer = None
@@ -83,3 +83,6 @@ while True:
 
 writer.release()
 video.release()
+
+import os
+os.startfile(output_file)
