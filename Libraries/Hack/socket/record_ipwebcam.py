@@ -13,7 +13,7 @@ afile = 'output.mp3'
 vfile = 'output.mp4'
 sd.wait()
 
-face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml');
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml') 
 # url = 'https://my.ivideon.com/cameras/groups/own'
 # aud = 'http://192.168.109.171:8080/audio.wav'
 # vid = 'http://192.168.109.171:8080/video'
@@ -30,10 +30,10 @@ out = cv2.VideoWriter(vfile, fourcc, 20.0, (640,480))
 
 while(True):
     ret, frame = cap.read()
-    faces = face_cascade.detectMultiScale(frame, scaleFactor=1.1, minNeighbors=5);
+    faces = face_cascade.detectMultiScale(frame, scaleFactor=1.1, minNeighbors=5) 
 
     for x,y,w,h in faces:
-        frame = cv2.rectangle(frame, (x,y), (x+w,y+h), (0,255,0), 3);
+        frame = cv2.rectangle(frame, (x,y), (x+w,y+h), (0,255,0), 3) 
 
     out.write(frame)
     wv.write(afile, recording, freq, sampwidth=2)
