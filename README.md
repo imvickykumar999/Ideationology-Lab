@@ -2,7 +2,13 @@
 
 ------------------------------
 
-## ✨YouTube API
+## 🍕 `Signup / Login` Automation on w3s using [Selenium Library](https://pypi.org/project/selenium/)
+
+[![ss](https://github.com/imvickykumar999/Ideationology-Lab/blob/main/Libraries/Selenium%20Web%20Automation/w3s_login.jpg?raw=true)](https://github.com/imvickykumar999/Ideationology-Lab/blob/dc91e8c54085a386ff2629b379d928fcf66c5953/Libraries/Selenium%20Web%20Automation/w3s%20login.py#L42)
+
+---------------------------
+
+## ✨ YouTube API
 
 - [API Key](https://console.cloud.google.com/iam-admin/serviceaccounts/details/105103137035687901193;edit=true/keys?project=ideationology-lab)
 - [Tutorial](https://medium.com/mcd-unison/youtube-data-api-v3-in-python-tutorial-with-examples-e829a25d2ebd)
@@ -12,7 +18,7 @@
 
 ------------------------------------
 
-## ✨ Google Chat : [Tutorial.py](https://github.com/imvickykumar999/Ideationology-Lab/blob/main/Cloud/Hangouts/tutorial/quickstart.py)
+## 🐳 Google Chat : [Tutorial.py](https://github.com/imvickykumar999/Ideationology-Lab/blob/main/Cloud/Hangouts/tutorial/quickstart.py)
 
 - [Chat API](https://developers.google.com/chat/api/guides/message-formats/basic)
 - [Chat Space](https://mail.google.com/chat/u/2/#chat/space/AAAA-pCtR2s)
