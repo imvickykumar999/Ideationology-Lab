@@ -4,7 +4,7 @@ import time
 web = webdriver.Chrome()
 Email = "sagar.sws2000@gmail.com"
 # Email = "18erecs080.vicky@rietjaipur.ac.in"
-passw = "Hellovix999@"
+passw = "*********"
 
 def fun_signup():
     web.get('https://www.w3schools.com/')
