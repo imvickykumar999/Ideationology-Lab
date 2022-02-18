@@ -12,12 +12,23 @@
 
     <body>
         <center>
+
+            <form method="POST" action="/table">
+
+                <input style="height:40px; width:400px"
+                type="text" name="hello"
+                placeholder="Write Title or Video ID here..."/>
+
+            </form>
+
             <div class="jumbotron">
+
                 {% for i in hw %}
                     <div class="alert alert-danger" role="alert">
                         {{ i }}
                     </div>
                 {% endfor %}
+
             </div>
         </center>
     </body>

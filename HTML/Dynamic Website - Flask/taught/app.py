@@ -1,12 +1,23 @@
 
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 app = Flask(__name__)
 
 @app.route('/')
 def index():
     h=[]
+    table = int(request.args.get('table'))
+
     for i in range(1, 11):
-        h.append(i*3)
+        h.append(i*table)
+    return render_template('index.html', hw=h)
+
+@app.route('/table', methods=['POST', 'GET'])
+def table():
+    h=[]
+    table = int(request.form['hello'])
+
+    for i in range(1, 11):
+        h.append(i*table)
     return render_template('index.html', hw=h)
 
 @app.route('/greet')
