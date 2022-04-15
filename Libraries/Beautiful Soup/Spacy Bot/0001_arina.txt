@@ -1,0 +1,29 @@
+U:{I need to know the main components of horizontal axis wind turbines} [What main components of a wind turbine?] [Please tell me where I can find out the main components of turbine]
+B:{You can see the answer at the page 24, Figure 2.1}
+
+U:{VAWT, what does it mean?} ["VAWT" what is it?]
+B:{You can see the answer at the page 11, chapter 1.4, third line}
+
+U:{I need to know how much does cost energy for Multi-MW wind plant}
+B:{You can see the answer at the page 18, Table 1.4, third line}
+
+U:{What does P mean in formula of voltage variation} [I need to know what equals P in voltage variation's formula]
+B:{You can see the answer at the page 80, the second line after formula 9.4}
+
+U:{What amount of decibel wind turbine makes?}
+B:{You can see the answer at the page 9, Figure 1.6}
+
+U:{What happens with turbine when wind exceeds 25 m/s?}
+B:{You can see the answer at the page 10, rigt block, seventh line from the bottom}
+
+U:{How different wind turbines look like?}
+B:{You can see the answer at the pages 11, 12 and 13, Figures 1.8, 1.9, 1.10, 1.12, 1.13, 1.14 and 1.15}
+
+U:{Are there technologies for installing wind turbines at seashores?} [Can we make wind turbines at seashores?]
+B:{You can see the answer at the page 15, left block, fifth paragraph}
+
+U:{How many years we can use wind power plants?} [What's the usual wind power plant's lifetime?]
+B:{You can see the answer at the page 15, right block, third paragraph}
+
+U:{What distance between wind turbines we need to keep?} [Is there a perfect gap that must be between wind turbines?]
+B:{You can see the answer at the page 16, left block, second paragraph, ninth line}
