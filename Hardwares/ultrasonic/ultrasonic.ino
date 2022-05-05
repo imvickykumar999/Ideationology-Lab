@@ -1,5 +1,4 @@
 
-
 int trigPin = 9;    //Trigger
 int echoPin = 12;    //Echo
 long duration, cm, inches;
@@ -45,8 +44,8 @@ void loop()
   inches = (duration/2) / 74; 
 
   check = condition(cm);
-  Serial.println(check);
-  
+  Serial.print(check);
+  Serial.print(" // ");
   Serial.print(inches);
   Serial.print("in, ");
   Serial.print(cm);
