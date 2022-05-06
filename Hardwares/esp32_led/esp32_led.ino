@@ -1,5 +1,4 @@
-//https://console.firebase.google.com/u/0/project/led-blink-wifi/database/led-blink-wifi-default-rtdb/data
-//https://console.firebase.google.com/u/0/project/led-blink-wifi/settings/serviceaccounts/databasesecrets
+//https://console.firebase.google.com/u/0/project/home-automation-336c0/database/home-automation-336c0-default-rtdb/data/~2FA~2FB~2FC~2FSwitch
 
 #include <WiFi.h>
 #include "FirebaseESP32.h"
@@ -11,8 +10,8 @@ int servoPin = 2;
 #define WIFI_SSID "Vicky"
 #define WIFI_PASSWORD "oyevicks"
 
-#define FIREBASE_HOST "led-blink-wifi-default-rtdb.firebaseio.com"
-#define FIREBASE_AUTH "VvFhb5Ij53hPmECwjzf3lxmtXXUA7a0SqW34CNSa"
+#define FIREBASE_HOST "home-automation-336c0-default-rtdb.firebaseio.com"
+#define FIREBASE_AUTH "Gb3UMfmGbxoFT68kFKatNy8UzcZ79FzX77GBCqUo"
 
 FirebaseData firebaseData;
 
@@ -45,7 +44,7 @@ void setup() {
 
 void loop() {
 
-    if (Firebase.getInt(firebaseData,"/led1"))
+    if (Firebase.getInt(firebaseData,"/A/B/C/Switch"))
     {
       int val2 = (firebaseData.intData());
       
