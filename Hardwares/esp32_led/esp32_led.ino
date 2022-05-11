@@ -4,14 +4,14 @@
 #include "FirebaseESP32.h"
 //#include <Servo.h>
 
-int servoPin = 2;
+int servoPin = 2; // D2 PIN
 //Servo Servo1;
 
 #define WIFI_SSID "Vicky"
-#define WIFI_PASSWORD "oyevicks"
+#define WIFI_PASSWORD "*******"
 
 #define FIREBASE_HOST "home-automation-336c0-default-rtdb.firebaseio.com"
-#define FIREBASE_AUTH "Gb3UMfmGbxoFT68kFKatNy8UzcZ79FzX77GBCqUo"
+#define FIREBASE_AUTH "****************************************"
 
 FirebaseData firebaseData;
 
