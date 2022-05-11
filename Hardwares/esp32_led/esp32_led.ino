@@ -8,10 +8,10 @@ int servoPin = 2; // D2 PIN
 //Servo Servo1;
 
 #define WIFI_SSID "Vicky"
-#define WIFI_PASSWORD "*******"
+#define WIFI_PASSWORD "oyevicks"
 
 #define FIREBASE_HOST "home-automation-336c0-default-rtdb.firebaseio.com"
-#define FIREBASE_AUTH "****************************************"
+#define FIREBASE_AUTH "lBCCsWbzfCC6Q9jbJRXVlV0siAahBsnPuA3Ba2KM"
 
 FirebaseData firebaseData;
 
