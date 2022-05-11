@@ -1,37 +1,5 @@
 
-/*
-const int buzzer = 12; //buzzer to arduino pin 12
-
-
-void setup(){
- 
-  pinMode(buzzer, OUTPUT); // Set buzzer - pin 12 as an output
-
-}
-
-void loop(){
- 
-  tone(buzzer, 1000); // Send 1KHz sound signal...
-  delay(1000);        // ...for 1 sec
-  noTone(buzzer);     // Stop sound...
-  delay(1000);        // ...for 1sec
-  
-}
-
-*/
-
-/*
-  Arduino Mario Bros Tunes
-  With Piezo Buzzer and PWM
-  by: Dipto Pratyaksa
-  last updated: 31/3/13
-*/
-
-
-//---------------------------------------------------
-
-
-const int PinBuzzer = 9;  //-- Connect Buzzer+ to Arduino D3.
+const int PinBuzzer = 12;  //-- Connect Buzzer+ to Arduino D3.
 
 void setup(void)
 {
@@ -144,7 +112,7 @@ void loop()
 #define NOTE_DS8 4978
 
 
-#define melodyPin 9
+#define melodyPin 12
 
 //Mario main theme melody
 int melody[] = {

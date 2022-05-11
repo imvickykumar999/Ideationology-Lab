@@ -1,3 +1,4 @@
+
 // Include the Servo library 
 #include <Servo.h> 
 
@@ -13,13 +14,19 @@ void setup() {
 }
 
 void loop(){ 
-   // Make servo go to 0 degrees 
-   Servo1.write(0); 
-  delay(1000); 
-   // Make servo go to 90 degrees 
-   Servo1.write(90); 
- delay(1000); 
-   // Make servo go to 180 degrees 
-//   Servo1.write(180); 
-//   delay(1000);
+    // Make servo go to 0 degrees 
+    Servo1.write(0); 
+    delay(1000); 
+  
+    // Make servo go to 90 degrees 
+    Servo1.write(90); 
+    delay(1000); 
+ 
+    //Make servo go to 180 degrees 
+    Servo1.write(180); 
+    delay(1000);
+
+    // Make servo go to 90 degrees 
+    Servo1.write(90); 
+    delay(1000); 
 }
