@@ -61,7 +61,7 @@ void loop()
   Serial.print("Message : ");
   content.toUpperCase();
   
-  if (content.substring(1) == "DA 91 44 B3") //change here the UID of the card/cards that you want to give access
+  if (content.substring(1) == "DA 91 44 B3" || content.substring(1) == "8A 4A 07 3F" ) //change here the UID of the card/cards that you want to give access
   {
     Serial.println("Authorized access");
 
