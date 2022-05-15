@@ -67,10 +67,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="95.52872003241336" y2="0" width="0" layer="20"/>
-<wire x1="95.52872003241336" y1="0" x2="95.52872003241336" y2="82.58300179113014" width="0" layer="20"/>
-<wire x1="95.52872003241336" y1="82.58300179113014" x2="0" y2="82.58300179113014" width="0" layer="20"/>
-<wire x1="0" y1="82.58300179113014" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="82.40360000000003" y2="0" width="0" layer="20"/>
+<wire x1="82.40360000000003" y1="0" x2="82.40360000000003" y2="94.3253326403326" width="0" layer="20"/>
+<wire x1="82.40360000000003" y1="94.3253326403326" x2="0" y2="94.3253326403326" width="0" layer="20"/>
+<wire x1="0" y1="94.3253326403326" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="Tinkercad">
@@ -85,12 +85,8 @@ No holes, no ICSP connections.
 &lt;p&gt;Example device(s):
 &lt;ul&gt;&lt;li&gt;Arduino Uno R3 Shield&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description><wire x1="-24.13" y1="-29.21" x2="-17.17" y2="-29.21" width="0.254" layer="51"/><wire x1="-17.17" y1="-29.21" x2="-4.97" y2="-29.21" width="0.254" layer="51"/><wire x1="-4.97" y1="-29.21" x2="24.13" y2="-29.21" width="0.254" layer="51"/><wire x1="24.13" y1="-29.21" x2="26.67" y2="-26.67" width="0.254" layer="51"/><wire x1="26.67" y1="27.94" x2="24.13" y2="27.94" width="0.254" layer="51"/><wire x1="24.13" y1="27.94" x2="21.59" y2="30.48" width="0.254" layer="51"/><wire x1="-26.67" y1="26.67" x2="-26.67" y2="-26.67" width="0.254" layer="51"/><wire x1="-26.67" y1="-26.67" x2="-24.13" y2="-29.21" width="0.254" layer="51"/><wire x1="21.59" y1="30.48" x2="-11.43" y2="30.48" width="0.254" layer="51"/><wire x1="-11.43" y1="30.48" x2="-13.97" y2="27.94" width="0.254" layer="51"/><wire x1="-13.97" y1="27.94" x2="-25.4" y2="27.94" width="0.254" layer="51"/><wire x1="-25.4" y1="27.94" x2="-26.67" y2="26.67" width="0.254" layer="51"/><wire x1="26.67" y1="-26.67" x2="26.67" y2="27.94" width="0.254" layer="51"/><wire x1="-17.17" y1="-44.71" x2="-4.97" y2="-44.71" width="0.254" layer="51"/><wire x1="13.53" y1="-39.51" x2="22.53" y2="-39.51" width="0.254" layer="51"/><wire x1="-17.17" y1="-44.71" x2="-17.17" y2="-29.21" width="0.254" layer="51"/><wire x1="-4.97" y1="-44.71" x2="-4.97" y2="-29.21" width="0.254" layer="51"/><wire x1="13.53" y1="-39.51" x2="13.53" y2="-29.31" width="0.254" layer="51"/><wire x1="22.53" y1="-39.51" x2="22.53" y2="-29.31" width="0.254" layer="51"/><wire x1="-25.4" y1="26.67" x2="-22.86" y2="26.67" width="0.127" layer="51"/><wire x1="-22.86" y1="26.67" x2="-22.86" y2="6.35" width="0.127" layer="51"/><wire x1="-22.86" y1="6.35" x2="-25.4" y2="6.35" width="0.127" layer="51"/><wire x1="-25.4" y1="6.35" x2="-25.4" y2="26.67" width="0.127" layer="51"/><wire x1="-25.4" y1="5.08" x2="-22.86" y2="5.08" width="0.127" layer="51"/><wire x1="-22.86" y1="5.08" x2="-22.86" y2="-20.32" width="0.127" layer="51"/><wire x1="-22.86" y1="-20.32" x2="-25.4" y2="-20.32" width="0.127" layer="51"/><wire x1="-25.4" y1="-20.32" x2="-25.4" y2="5.08" width="0.127" layer="51"/><wire x1="22.86" y1="-11.43" x2="25.4" y2="-11.43" width="0.127" layer="51"/><wire x1="25.4" y1="-11.43" x2="25.4" y2="8.89" width="0.127" layer="51"/><wire x1="25.4" y1="8.89" x2="22.86" y2="8.89" width="0.127" layer="51"/><wire x1="22.86" y1="8.89" x2="22.86" y2="-11.43" width="0.127" layer="51"/><wire x1="25.4" y1="11.43" x2="22.86" y2="11.43" width="0.127" layer="51"/><wire x1="22.86" y1="11.43" x2="22.86" y2="26.67" width="0.127" layer="51"/><wire x1="22.86" y1="26.67" x2="25.4" y2="26.67" width="0.127" layer="51"/><wire x1="25.4" y1="26.67" x2="25.4" y2="11.43" width="0.127" layer="51"/><wire x1="-4.445" y1="24.13" x2="-5.08" y2="24.765" width="0.254" layer="51"/><wire x1="-5.08" y1="24.765" x2="-5.08" y2="28.575" width="0.254" layer="51"/><wire x1="-5.08" y1="28.575" x2="-4.445" y2="29.21" width="0.254" layer="51"/><wire x1="-4.445" y1="29.21" x2="1.905" y2="29.21" width="0.254" layer="51"/><wire x1="1.905" y1="29.21" x2="2.54" y2="28.575" width="0.254" layer="51"/><wire x1="2.54" y1="28.575" x2="2.54" y2="24.765" width="0.254" layer="51"/><wire x1="2.54" y1="24.765" x2="1.905" y2="24.13" width="0.254" layer="51"/><wire x1="1.905" y1="24.13" x2="-4.445" y2="24.13" width="0.254" layer="51"/><wire x1="-3.175" y1="23.622" x2="-4.445" y2="23.622" width="0.2032" layer="51"/><pad name="RES" x="24.13" y="-5.08" drill="1.016" diameter="1.8796" rot="R90"/><pad name="3.3V" x="24.13" y="-2.54" drill="1.016" diameter="1.8796" rot="R90"/><pad name="5V" x="24.13" y="0" drill="1.016" diameter="1.8796" rot="R90"/><pad name="GND@0" x="24.13" y="2.54" drill="1.016" diameter="1.8796" rot="R90"/><pad name="GND@1" x="24.13" y="5.08" drill="1.016" diameter="1.8796" rot="R90"/><pad name="VIN" x="24.13" y="7.62" drill="1.016" diameter="1.8796" rot="R90"/><pad name="A0" x="24.13" y="12.7" drill="1.016" diameter="1.8796" rot="R90"/><pad name="A1" x="24.13" y="15.24" drill="1.016" diameter="1.8796" rot="R90"/><pad name="A2" x="24.13" y="17.78" drill="1.016" diameter="1.8796" rot="R90"/><pad name="A3" x="24.13" y="20.32" drill="1.016" diameter="1.8796" rot="R90"/><pad name="A4" x="24.13" y="22.86" drill="1.016" diameter="1.8796" rot="R90"/><pad name="A5" x="24.13" y="25.4" drill="1.016" diameter="1.8796" rot="R90"/><pad name="RX" x="-24.13" y="25.4" drill="1.016" diameter="1.8796" rot="R90"/><pad name="TX" x="-24.13" y="22.86" drill="1.016" diameter="1.8796" rot="R90"/><pad name="D2" x="-24.13" y="20.32" drill="1.016" diameter="1.8796" rot="R90"/><pad name="D3" x="-24.13" y="17.78" drill="1.016" diameter="1.8796" rot="R90"/><pad name="D4" x="-24.13" y="15.24" drill="1.016" diameter="1.8796" rot="R90"/><pad name="D5" x="-24.13" y="12.7" drill="1.016" diameter="1.8796" rot="R90"/><pad name="D6" x="-24.13" y="10.16" drill="1.016" diameter="1.8796" rot="R90"/><pad name="D7" x="-24.13" y="7.62" drill="1.016" diameter="1.8796" rot="R90"/><pad name="D8" x="-24.13" y="3.81" drill="1.016" diameter="1.8796" rot="R90"/><pad name="D9" x="-24.13" y="1.27" drill="1.016" diameter="1.8796" rot="R90"/><pad name="D10" x="-24.13" y="-1.27" drill="1.016" diameter="1.8796" rot="R90"/><pad name="D11" x="-24.13" y="-3.81" drill="1.016" diameter="1.8796" rot="R90"/><pad name="D12" x="-24.13" y="-6.35" drill="1.016" diameter="1.8796" rot="R90"/><pad name="D13" x="-24.13" y="-8.89" drill="1.016" diameter="1.8796" rot="R90"/><pad name="GND@2" x="-24.13" y="-11.43" drill="1.016" diameter="1.8796" rot="R90"/><pad name="AREF" x="-24.13" y="-13.97" drill="1.016" diameter="1.8796" rot="R90"/><pad name="SDA" x="-24.13" y="-16.51" drill="1.016" diameter="1.8796" rot="R90"/><pad name="SCL" x="-24.13" y="-19.05" drill="1.016" diameter="1.8796" rot="R90"/><pad name="IOREF" x="24.13" y="-7.62" drill="1.016" diameter="1.8796" rot="R90"/><pad name="NC" x="24.13" y="-10.16" drill="1.016" diameter="1.8796" rot="R90"/><text x="22.7457" y="3.048" size="1.016" layer="21" font="vector" ratio="15" rot="R180">GND</text><text x="22.7457" y="5.588" size="1.016" layer="21" font="vector" ratio="15" rot="R180">GND</text><text x="22.7457" y="0.508" size="1.016" layer="21" font="vector" ratio="15" rot="R180">+5V</text><text x="22.7457" y="-4.572" size="1.016" layer="21" font="vector" ratio="15" rot="R180">RST</text><text x="22.7457" y="8.128" size="1.016" layer="21" font="vector" ratio="15" rot="R180">VIN</text><text x="22.7457" y="-2.032" size="1.016" layer="21" font="vector" ratio="15" rot="R180">+3.3V</text><text x="22.7457" y="13.208" size="1.016" layer="21" font="vector" ratio="15" rot="R180">0</text><text x="22.7457" y="15.748" size="1.016" layer="21" font="vector" ratio="15" rot="R180">1</text><text x="22.7457" y="18.288" size="1.016" layer="21" font="vector" ratio="15" rot="R180">2</text><text x="22.7457" y="20.828" size="1.016" layer="21" font="vector" ratio="15" rot="R180">3</text><text x="22.7457" y="23.368" size="1.016" layer="21" font="vector" ratio="15" rot="R180">4</text><text x="22.7457" y="25.908" size="1.016" layer="21" font="vector" ratio="15" rot="R180">5</text><text x="-22.86" y="-11.938" size="1.016" layer="21" font="vector" ratio="15">GND</text><text x="-22.86" y="-9.398" size="1.016" layer="21" font="vector" ratio="15">13</text><text x="-22.86" y="-6.858" size="1.016" layer="21" font="vector" ratio="15">12</text><text x="-22.86" y="-4.318" size="1.016" layer="21" font="vector" ratio="15">11</text><text x="-22.86" y="-14.478" size="1.016" layer="21" font="vector" ratio="15">AREF</text><text x="-22.86" y="-1.778" size="1.016" layer="21" font="vector" ratio="15">10</text><text x="-22.86" y="0.762" size="1.016" layer="21" font="vector" ratio="15">9</text><text x="-22.86" y="3.302" size="1.016" layer="21" font="vector" ratio="15">8</text><text x="-22.86" y="7.112" size="1.016" layer="21" font="vector" ratio="15">7</text><text x="-22.86" y="9.652" size="1.016" layer="21" font="vector" ratio="15">6</text><text x="-22.86" y="12.192" size="1.016" layer="21" font="vector" ratio="15">5</text><text x="-22.86" y="14.732" size="1.016" layer="21" font="vector" ratio="15">4</text><text x="-22.86" y="17.272" size="1.016" layer="21" font="vector" ratio="15">3</text><text x="-22.86" y="19.812" size="1.016" layer="21" font="vector" ratio="15">2</text><text x="-22.86" y="22.352" size="1.016" layer="21" font="vector" ratio="15">TX</text><text x="-22.86" y="24.892" size="1.016" layer="21" font="vector" ratio="15">RX</text><text x="-22.86" y="-17.018" size="1.016" layer="21" font="vector" ratio="15">SDA</text><text x="-22.86" y="-19.558" size="1.016" layer="21" font="vector" ratio="15">SCL</text><text x="22.7457" y="-7.112" size="1.016" layer="21" font="vector" ratio="15" rot="R180">IOREF</text><text x="0.635" y="23.241" size="0.508" layer="51" font="vector" ratio="15">RST</text><text x="-1.778" y="26.416" size="0.508" layer="51" font="vector" ratio="15">ISP</text><text x="-12.065" y="-44.069" size="0.508" layer="51" font="vector" ratio="15">USB</text><text x="15.875" y="-38.989" size="0.508" layer="51" font="vector" ratio="15">POWER JACK</text><text x="0" y="30.734" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text><text x="0" y="-29.718" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text></package>
-<package name="RESAD1016W63L850D250B" urn="urn:adsk.eagle:footprint:31513019/1"><description>Axial Resistor, 10.16 mm pitch, 8.50 mm body length, 2.50 mm body diameter
- &lt;p&gt;Axial Resistor package with 10.16 mm pitch (lead spacing), 0.63 mm lead diameter, 8.50 mm body length and 2.50 mm body diameter&lt;/p&gt;</description><pad name="1" x="-5.08" y="0" drill="0.83" diameter="1.43"/><pad name="2" x="5.08" y="0" drill="0.83" diameter="1.43"/><wire x1="-4.25" y1="-1.25" x2="-4.25" y2="1.25" width="0.12" layer="21"/><wire x1="-4.25" y1="1.25" x2="4.25" y2="1.25" width="0.12" layer="21"/><wire x1="4.25" y1="1.25" x2="4.25" y2="-1.25" width="0.12" layer="21"/><wire x1="4.25" y1="-1.25" x2="-4.25" y2="-1.25" width="0.12" layer="21"/><wire x1="-4.25" y1="0" x2="-4.111" y2="0" width="0.12" layer="21"/><wire x1="4.25" y1="0" x2="4.111" y2="0" width="0.12" layer="21"/><wire x1="-4.25" y1="-1.25" x2="-4.25" y2="1.25" width="0.12" layer="51"/><wire x1="-4.25" y1="1.25" x2="4.25" y2="1.25" width="0.12" layer="51"/><wire x1="4.25" y1="1.25" x2="4.25" y2="-1.25" width="0.12" layer="51"/><wire x1="4.25" y1="-1.25" x2="-4.25" y2="-1.25" width="0.12" layer="51"/><text x="0" y="1.885" size="1.27" layer="25" align="bottom-center">&gt;NAME</text><text x="0" y="-1.885" size="1.27" layer="27" align="top-center">&gt;VALUE</text></package>
-<package name="LEDRD254W60D565H860B" urn="urn:adsk.eagle:footprint:16378492/1"><description>Radial LED (Round), 2.54 mm pitch, 5.65 mm body diameter, 8.60 mm body height
-&lt;p&gt;Radial LED (Round) package with 2.54 mm pitch (lead spacing), 0.60 mm lead width, 0.50 mm lead thickness, 5.65 mm body diameter and 8.60 mm body height&lt;/p&gt;</description><wire x1="2.5425" y1="1.2314" x2="-2.825" y2="0" width="0.12" layer="21" curve="154.1581"/><wire x1="2.5425" y1="-1.2314" x2="-2.825" y2="0" width="0.12" layer="21" curve="-154.1581"/><wire x1="2.5425" y1="1.2314" x2="2.5425" y2="-1.2314" width="0.12" layer="21"/><wire x1="-2.5946" y1="2.5946" x2="-1.8446" y2="2.5946" width="0.12" layer="21"/><wire x1="-2.2196" y1="2.9696" x2="-2.2196" y2="2.2196" width="0.12" layer="21"/><pad name="1" x="-1.27" y="0" drill="0.981" diameter="1.581"/><pad name="2" x="1.27" y="0" drill="0.981" diameter="1.581"/><circle x="0" y="0" radius="2.825" width="0.12" layer="51"/><text x="0" y="3.6046" size="1.27" layer="25" align="bottom-center">&gt;NAME</text><text x="0" y="-3.4642" size="1.27" layer="27" align="top-center">&gt;VALUE</text></package>
-<package name="LEDRD254W60D565H860B_G" urn="urn:adsk.eagle:footprint:31997106/1"><description>Radial LED (Round), 2.54 mm pitch, 5.65 mm body diameter, 8.60 mm body height
-&lt;p&gt;Radial LED (Round) package with 2.54 mm pitch (lead spacing), 0.60 mm lead width, 0.50 mm lead thickness, 5.65 mm body diameter and 8.60 mm body height&lt;/p&gt;</description><wire x1="2.5425" y1="1.2314" x2="-2.825" y2="0" width="0.12" layer="21" curve="154.1581"/><wire x1="2.5425" y1="-1.2314" x2="-2.825" y2="0" width="0.12" layer="21" curve="-154.1581"/><wire x1="2.5425" y1="1.2314" x2="2.5425" y2="-1.2314" width="0.12" layer="21"/><wire x1="-2.5946" y1="2.5946" x2="-1.8446" y2="2.5946" width="0.12" layer="21"/><wire x1="-2.2196" y1="2.9696" x2="-2.2196" y2="2.2196" width="0.12" layer="21"/><pad name="1" x="-1.27" y="0" drill="0.981" diameter="1.581"/><pad name="2" x="1.27" y="0" drill="0.981" diameter="1.581"/><circle x="0" y="0" radius="2.825" width="0.12" layer="51"/><text x="0" y="3.6046" size="1.27" layer="25" align="bottom-center">&gt;NAME</text><text x="0" y="-3.4642" size="1.27" layer="27" align="top-center">&gt;VALUE</text></package>
+<package name="PIEZO" urn="urn:adsk.eagle:footprint:32623991/1"><description>Radial Non-Polarized Inductor, 7.00 mm pitch, 17.00 mm body diameter, 11.00 mm body height
+ &lt;p&gt;Radial Non-Polarized Inductor package with 7.00 mm pitch (lead spacing), 0.80 mm lead diameter, 17.00 mm body diameter and 11.00 mm body height&lt;/p&gt;</description><pad name="1" x="-3.5" y="0" drill="1" diameter="1.6"/><pad name="2" x="3.5" y="0" drill="1" diameter="1.6"/><circle x="0" y="0" radius="8.5" width="0.12" layer="21"/><circle x="0" y="0" radius="8.5" width="0.12" layer="51"/><text x="0" y="9.135" size="1.27" layer="25" align="bottom-center">&gt;NAME</text><text x="0" y="-9.135" size="1.27" layer="27" align="top-center">&gt;VALUE</text></package>
 </packages>
 <packages3d>
 <package3d name="ARDUINO-UNO-R3-SHIELD" urn="urn:adsk.eagle:package:32092383/3" type="model"><description>&lt;h3&gt;Arduino Uno-Compatible Footprint&lt;/h3&gt;
@@ -103,12 +99,8 @@ No holes, no ICSP connections.
 &lt;p&gt;Example device(s):
 &lt;ul&gt;&lt;li&gt;Arduino Uno R3 Shield&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description><packageinstances><packageinstance name="ARDUINO-UNO-R3-SHIELD"/></packageinstances></package3d>
-<package3d name="RESAD1016W63L850D250B" urn="urn:adsk.eagle:package:31513020/1" type="model"><description>Axial Resistor, 10.16 mm pitch, 8.50 mm body length, 2.50 mm body diameter
- &lt;p&gt;Axial Resistor package with 10.16 mm pitch (lead spacing), 0.63 mm lead diameter, 8.50 mm body length and 2.50 mm body diameter&lt;/p&gt;</description><packageinstances><packageinstance name="RESAD1016W63L850D250B"/></packageinstances></package3d>
-<package3d name="LEDRD254W60D565H860B" urn="urn:adsk.eagle:package:16378508/1" type="model"><description>Radial LED (Round), 2.54 mm pitch, 5.65 mm body diameter, 8.60 mm body height
-&lt;p&gt;Radial LED (Round) package with 2.54 mm pitch (lead spacing), 0.60 mm lead width, 0.50 mm lead thickness, 5.65 mm body diameter and 8.60 mm body height&lt;/p&gt;</description><packageinstances><packageinstance name="LEDRD254W60D565H860B"/></packageinstances></package3d>
-<package3d name="LEDRD254W60D565H860B_G" urn="urn:adsk.eagle:package:31997108/2" type="model"><description>Radial LED (Round), 2.54 mm pitch, 5.65 mm body diameter, 8.60 mm body height
-&lt;p&gt;Radial LED (Round) package with 2.54 mm pitch (lead spacing), 0.60 mm lead width, 0.50 mm lead thickness, 5.65 mm body diameter and 8.60 mm body height&lt;/p&gt;</description><packageinstances><packageinstance name="LEDRD254W60D565H860B_G"/></packageinstances></package3d>
+<package3d name="PIEZO" urn="urn:adsk.eagle:package:32623992/1" type="model"><description>Radial Non-Polarized Inductor, 7.00 mm pitch, 17.00 mm body diameter, 11.00 mm body height
+ &lt;p&gt;Radial Non-Polarized Inductor package with 7.00 mm pitch (lead spacing), 0.80 mm lead diameter, 17.00 mm body diameter and 11.00 mm body height&lt;/p&gt;</description><packageinstances><packageinstance name="PIEZO"/></packageinstances></package3d>
 </packages3d>
 </library></libraries>
 <attributes/>
@@ -300,68 +292,23 @@ design rules under a new name.
 </pass>
 </autorouter>
 <elements>
-<element name="D2" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="64.7508" y="74.5334" rot="R360" smashed="yes">
-<attribute name="CATEGORY" value="Opto-Electronic" x="64.7508" y="74.5334" size="1.778" layer="27" display="off"/>
-<attribute name="COLOR" value="" x="64.7508" y="74.5334" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="" x="64.7508" y="74.5334" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="64.7508" y="74.5334" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="64.7508" y="74.5334" size="1.778" layer="27" display="off"/>
-<attribute name="OPERATING_TEMP" value="" x="64.7508" y="74.5334" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="64.7508" y="74.5334" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="64.7508" y="74.5334" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="64.7508" y="74.5334" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="LED" x="64.7508" y="74.5334" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="64.7508" y="74.5334" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="64.7508" y="74.5334" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="LED_RED" x="64.7508" y="74.5334" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R1" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/1" value="200" x="63.4808" y="69.4534" rot="R270" smashed="yes"/>
+<element name="PIEZO1" library="Tinkercad" package="PIEZO" package3d_urn="urn:adsk.eagle:package:32623992/1" value="PIEZO" x="40.323" y="80.7453" rot="R180" smashed="yes"/>
 <element name="U1" library="Tinkercad" package="ARDUINO-UNO-R3-SHIELD" package3d_urn="urn:adsk.eagle:package:32092383/3" value="ARDUINO-UNO-R3-SHIELD" x="47.885" y="29.845" rot="R270" smashed="yes"/>
-<element name="D1" library="Tinkercad" package="LEDRD254W60D565H860B_G" package3d_urn="urn:adsk.eagle:package:31997108/2" value="GREEN" x="84.9537" y="72.5" rot="R90" smashed="yes">
-<attribute name="CATEGORY" value="Opto-Electronic" x="84.9537" y="72.5" size="1.778" layer="27" display="off"/>
-<attribute name="COLOR" value="" x="84.9537" y="72.5" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="" x="84.9537" y="72.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="84.9537" y="72.5" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="84.9537" y="72.5" size="1.778" layer="27" display="off"/>
-<attribute name="OPERATING_TEMP" value="" x="84.9537" y="72.5" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="84.9537" y="72.5" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="84.9537" y="72.5" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="84.9537" y="72.5" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="LED" x="84.9537" y="72.5" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="84.9537" y="72.5" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="84.9537" y="72.5" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="LED_GREEN" x="84.9537" y="72.5" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R2" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/1" value="1k" x="89.1987" y="61.4056" rot="R90" smashed="yes"/>
 </elements>
 <signals>
 <signal name="U1_GND">
+<contactref element="PIEZO1" pad="2"/>
 <contactref element="U1" pad="GND@0"/>
 <contactref element="U1" pad="GND@1"/>
 <contactref element="U1" pad="GND@2"/>
-<contactref element="D2" pad="2"/>
-<contactref element="D1" pad="2"/>
 <wire x1="50.425" y1="5.715" x2="52.965" y2="5.715" width="0" layer="19" extent="1-1"/>
 <wire x1="50.425" y1="5.715" x2="36.455" y2="53.975" width="0" layer="19" extent="1-1"/>
-<wire x1="36.455" y1="53.975" x2="66.0208" y2="74.5334" width="0" layer="19" extent="1-1"/>
-<wire x1="66.0208" y1="74.5334" x2="84.9537" y2="73.77" width="0" layer="19" extent="1-1"/>
+<wire x1="36.823" y1="80.7453" x2="36.455" y2="53.975" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="D2_A">
-<contactref element="R1" pad="1"/>
-<contactref element="D2" pad="1"/>
-<wire x1="63.4808" y1="74.5334" x2="63.4808" y2="74.5334" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="U1_RX">
-<contactref element="R2" pad="1"/>
-<contactref element="R1" pad="2"/>
-<contactref element="U1" pad="RX"/>
-<wire x1="63.4808" y1="64.3734" x2="73.285" y2="53.975" width="0" layer="19" extent="1-1"/>
-<wire x1="89.1987" y1="56.3256" x2="73.285" y2="53.975" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="D1_A">
-<contactref element="D1" pad="1"/>
-<contactref element="R2" pad="2"/>
-<wire x1="84.9537" y1="71.23" x2="89.1987" y2="66.4856" width="0" layer="19" extent="1-1"/>
+<signal name="U1_D12">
+<contactref element="PIEZO1" pad="1"/>
+<contactref element="U1" pad="D12"/>
+<wire x1="43.823" y1="80.7453" x2="41.535" y2="53.975" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
