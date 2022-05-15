@@ -1,9 +1,10 @@
 
-# https://stackoverflow.com/a/13181036/11493297
+# https://stackoverflow.com/a/55545493/11493297
 
 import serial, keyboard
 import cv2
 import numpy as np
+from datetime import datetime as d
 
 width = 1000
 height = 1000
@@ -22,11 +23,14 @@ while True:
     comma_sep = arduinodata.split(',')
 
     trace = int(comma_sep[0]) +512, int(comma_sep[1]) +512
-    print(trace)
-    textfile.write(arduinodata)
+    date = d.now()
+    col = date.strftime("%Y-%m-%d   %H:%M:%S:%f,")
+    
+    print(trace, col)
+    textfile.write(col + arduinodata)
 
-    # Change pixel (50,50) to red
-    # img[50,50] = red
+    # Change pixel (50,50) to white
+    # img[50,50] = white
     cv2.circle(img, (trace), 10, white, -1)
 
     # cv2.imshow('img', img)
