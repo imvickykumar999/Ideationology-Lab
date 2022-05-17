@@ -8,6 +8,7 @@ void setup() {
 
 void loop() {
   while(Serial.available()>0){
+    
       inputByte= Serial.read();
       Serial.print(inputByte);
       
