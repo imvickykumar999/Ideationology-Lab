@@ -1,0 +1,45 @@
+Arduino: 1.8.13 (Windows 10), Board: "ESP32 Dev Module, Disabled, Default 4MB with spiffs (1.2MB APP/1.5MB SPIFFS), 240MHz (WiFi/BT), QIO, 80MHz, 4MB (32Mb), 921600, Core 1, Core 1, None"
+
+Sketch uses 210641 bytes (16%) of program storage space. Maximum is 1310720 bytes.
+
+Global variables use 16044 bytes (4%) of dynamic memory, leaving 311636 bytes for local variables. Maximum is 327680 bytes.
+
+esptool.py v3.3
+
+Serial port COM6
+
+Connecting...Traceback (most recent call last):
+
+  File "esptool.py", line 5387, in <module>
+
+  File "esptool.py", line 5380, in _main
+
+  File "esptool.py", line 4687, in main
+
+  File "esptool.py", line 115, in get_default_connected_device
+
+  File "esptool.py", line 664, in connect
+
+  File "esptool.py", line 629, in _connect_attempt
+
+
+
+  File "esptool.py", line 519, in sync
+
+  File "esptool.py", line 458, in command
+
+  File "esptool.py", line 421, in write
+
+  File "serial\serialwin32.py", line 325, in write
+
+serial.serialutil.SerialTimeoutException: Write timeout
+
+[32904] Failed to execute script 'esptool' due to unhandled exception!
+
+An error occurred while uploading the sketch
+
+
+
+This report would have more information with
+"Show verbose output during compilation"
+option enabled in File -> Preferences.
