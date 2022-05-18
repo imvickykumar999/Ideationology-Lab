@@ -1,0 +1,4 @@
+
+Driver : C:\Users\Vicky\Downloads\CP210x_Universal_Windows_Driver
+
+ESPRESSIF : C:\Users\Vicky\Documents\Arduino\hardware\espressif\esp32\tools
