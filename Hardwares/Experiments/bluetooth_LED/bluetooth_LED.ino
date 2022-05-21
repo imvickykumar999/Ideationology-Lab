@@ -47,13 +47,15 @@ char inputByte;
 void setup() {
  Serial.begin(9600);
  pinMode(13,OUTPUT);
+ digitalWrite(13,HIGH);
 }
 
 void loop() {
   while(Serial.available()>0){
     
-      inputByte= Serial.read();
+      inputByte = Serial.read();
       Serial.print(inputByte);
+//      Serial.write(inputByte);
       
       if (inputByte=='1'){
       digitalWrite(13,HIGH);
