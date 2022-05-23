@@ -1,0 +1,44 @@
+
+x = '101'
+y = 3
+a = []
+
+for i in range(y):
+	a.append(x)
+
+b = ', '.join(a)
+print(str(b))
+
+
+first = [1,2,3,4,5]
+second = [1,2,3,4,5,6]
+
+[]
+
+a = 2
+b = 3
+
+a, b = b, a
+
+a = a+b // 5
+b = a-b // 2
+a = a-b // 3
+
+
+
+
+n = 10
+flag = 1
+
+for i in range(2, n):
+	if n%i:
+		flag = 0
+
+if flag:
+	print(n, 'is prime.')
+else:
+	print(n, 'is NOT prime.')
+
+
+SELECT empName from Employee
+WHERE empName[0] IS 'A'
