@@ -53,9 +53,13 @@ void updateSerial()
 void sendSMS(){
   mySerial.println("AT+CMGF=1");
   delay(500);
-  mySerial.println("AT+CMGS=\"+918239957923\"\r");
+  
+//  mySerial.println("AT+CMGS=\"+918239957923\"\r");
+  mySerial.println("AT+CMGS=\"+919987488458\"\r");
+  
   delay(500);
-  mySerial.print("Hi! TechToTinker!");
+  mySerial.print("Hi, Vicks!");
+  
   delay(500);
   mySerial.write(26);
 }

@@ -1,7 +1,11 @@
 
+Q). Print 101, 101, 101
+Given,
 x = '101'
 y = 3
 a = []
+
+Ans). 
 
 for i in range(y):
 	a.append(x)
@@ -9,23 +13,28 @@ for i in range(y):
 b = ', '.join(a)
 print(str(b))
 
+---------------------------------
 
-first = [1,2,3,4,5]
-second = [1,2,3,4,5,6]
+Q). Swap 2 number.
 
-[]
+Ans).
 
 a = 2
 b = 3
 
 a, b = b, a
 
+or, 
+
 a = a+b // 5
 b = a-b // 2
 a = a-b // 3
 
+---------------------------------
 
+Q). Print Prime number.
 
+Ans).
 
 n = 10
 flag = 1
@@ -39,6 +48,11 @@ if flag:
 else:
 	print(n, 'is NOT prime.')
 
+-----------------------------
+
+Q). SQL to print first letter of empName column.
+
+Ans). // mine was wrong.
 
 SELECT empName from Employee
 WHERE empName[0] IS 'A'
