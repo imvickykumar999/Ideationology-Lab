@@ -19,17 +19,19 @@
     }
 
 
-[![blink](https://github.com/imvickykumar999/Ideationology-Lab/blob/main/Hardwares/Blink/Blink%20LED%20-%20Tinkercad.png?raw=true)](https://github.com/imvickykumar999/Ideationology-Lab/blob/main/Hardwares/Blink/Blink%20LED%20-%20Tinkercad.pdf)
+[![blink](https://github.com/imvickykumar999/Arduino-and-Sensors/blob/main/Blink/Blink%20LED%20-%20Tinkercad.png?raw=true)](https://github.com/imvickykumar999/Ideationology-Lab/blob/main/Hardwares/Blink/Blink%20LED%20-%20Tinkercad.pdf)
 
 ----------------------------
 
 ## 🥳 `Arduino` with `Embedded C` Language.
 
-[![ss](https://github.com/imvickykumar999/Ideationology-Lab/blob/main/Hardwares/servo_ultrasonic/image.jpeg?raw=true)](https://github.com/imvickykumar999/Ideationology-Lab/tree/main/Hardwares)
+[![ss](https://raw.githubusercontent.com/imvickykumar999/Ideationology-Lab/main/Hardwares/Experiments/servo_ultrasonic/output.jpg)](https://github.com/imvickykumar999/Ideationology-Lab/tree/main/Hardwares)
 
 ------------------------------------
 
 ## Agenda @ Ideationology Lab : Google [Cloud](https://github.com/imvickykumar999/Ideationology-Lab/tree/main/Cloud) Console
+
+![ss](https://user-images.githubusercontent.com/50515418/152233465-5115d443-96d0-424e-9843-bfea429b6898.png)
 
 ------------------------------
 
@@ -77,7 +79,7 @@
 - [PYPI : pip install mysql-connector-python](https://pypi.org/project/mysql-connector-python/)
 - [W3S Queries](https://www.w3schools.com/sql/default.asp)
 
-[![ss](https://github.com/imvickykumar999/Ideationology-Lab/blob/main/SQL/ss.png?raw=true)](https://github.com/imvickykumar999/Ideationology-Lab/blob/main/SQL/w3s.sql)
+[![ss](https://github.com/imvickykumar999/Ideationology-Lab/blob/main/SQL/MYSQL/ss.png?raw=true)](https://github.com/imvickykumar999/Ideationology-Lab/blob/main/SQL/MYSQL/tutorialspoint.sql)
 
 ------------------------------------------------
 
