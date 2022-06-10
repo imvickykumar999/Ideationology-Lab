@@ -1,0 +1,5 @@
+﻿Name,Quantity,Component
+"U1",1," Arduino Uno R3"
+"U2",1," IR sensor"
+"D1",1," LED RGB"
+"R1, R2, R3",3,"1 kΩ Resistor"
