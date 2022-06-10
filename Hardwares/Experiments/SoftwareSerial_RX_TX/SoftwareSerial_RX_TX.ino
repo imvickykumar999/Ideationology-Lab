@@ -1,7 +1,8 @@
 
 #include <SoftwareSerial.h>
 
-SoftwareSerial mySerial(2, 3); // RX, TX
+// use 10, 11 pair in Arduino Mega
+SoftwareSerial mySerial(10, 11); // RX, TX 
 char inputByte;
 
 void setup() {
