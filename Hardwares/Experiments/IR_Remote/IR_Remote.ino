@@ -16,7 +16,22 @@ void setup()
 void loop() {
   if (irrecv.decode(&results)) {
     Serial.println(results.value, HEX);
-    irrecv.resume(); // Receive the next value    
+    irrecv.resume(); // Receive the next value 
+
+    if(results.value==0xFD08F7){
+      digitalWrite(13,HIGH);
+    }
+    else if(results.value==0xFD48B7){
+      digitalWrite(13,LOW);
+    }
+
+    if(results.value==0xFD08E7){
+      digitalWrite(2,HIGH);
+    }
+    else if(results.value==0xFD48E7){
+      digitalWrite(2,LOW);
+    }
+
   }
   delay(100);
 }
