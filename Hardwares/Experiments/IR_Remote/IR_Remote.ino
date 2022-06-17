@@ -18,17 +18,17 @@ void loop() {
     Serial.println(results.value, HEX);
     irrecv.resume(); // Receive the next value 
 
-    if(results.value==0xFD08F7){
+    if(results.value==0xA78E696B){ // 1
       digitalWrite(13,HIGH);
     }
-    else if(results.value==0xFD48B7){
+    else if(results.value==0xBF09EE05){ // 2
       digitalWrite(13,LOW);
     }
 
-    if(results.value==0xFD08E7){
+    if(results.value==0xBF09EE04){ // 3
       digitalWrite(2,HIGH);
     }
-    else if(results.value==0xFD48E7){
+    else if(results.value==0xAF8B007B){ // 4
       digitalWrite(2,LOW);
     }
 
