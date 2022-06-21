@@ -1,10 +1,19 @@
-# Laboratory Experiments:
+# Steps to Run Python File:
 
     >>> To run python file (say LAB1.py), 
-    open CMD in that folder and write:
-`python LAB1.py`
+    write cmd (see fig.1) in that folder,
     
+then write: `python LAB1.py` in terminal (see fig.2)
+
     then, press Enter.
+
+------------------------------------------
+![image](https://user-images.githubusercontent.com/50515418/174725661-9083090b-81fb-474c-9114-bd25253811d3.png)
+-------------------------------------
+![image](https://user-images.githubusercontent.com/50515418/174725933-5a51933f-7fb1-484c-9545-87eec12b52b3.png)
+-----------------------------------------
+
+# Laboratory Experiments:
 
 1. IMPLEMENT AND DEMONSTRATETHE FIND-S ALGORITHM FOR FINDING THE MOST SPECIFIC HYPOTHESIS BASED ON A GIVEN SET OF TRAINING DATA SAMPLES. READ THE TRAINING DATA FROM A .CSV FILE. [python LAB1.py](https://github.com/imvickykumar999/Ideationology-Lab/blob/main/ML%20Lab/1-Find-S%20Algorithm/LAB1.py)
 
