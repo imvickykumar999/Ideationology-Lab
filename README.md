@@ -1,6 +1,6 @@
 # 🍕 Ideationology Lab
 
-![Ideationology lab](https://raw.githubusercontent.com/imvickykumar999/Ideationology-Attendance/main/static/ideationology.jpg)
+[![Ideationology lab](https://raw.githubusercontent.com/imvickykumar999/Ideationology-Attendance/main/static/ideationology.jpg)](https://gallery.appinventor.mit.edu/?galleryid=bed00a2f-c99d-4f65-9314-4b6b3abf0876)
 ----------------
 
 ## 🔥 UltraSonic Sensor Simulation : https://imvickykumar999.github.io/Ideationology-Lab/
