@@ -1,7 +1,13 @@
-# Steps to Run Python File:
+# Copy python code and run (online) here [onlinegdb.com](https://www.onlinegdb.com/online_python_compiler)
+(Upload required .csv file in editor, if needed...)
+
+---------------
+
+# Steps to Run Python File (offline):
 
     >>> To run python file (say LAB1.py), 
-    write cmd (see fig.1) in that folder,
+    Save raw file in a folder
+    and, write cmd (see fig.1) in that folder,
     
 then write: `python LAB1.py` in terminal (see fig.2)
 
