@@ -1,3 +1,5 @@
+![Ideationology lab](https://raw.githubusercontent.com/imvickykumar999/Ideationology-Attendance/main/static/ideationology.jpg)
+
 # >>> UltraSonic Sensor Simulation : https://imvickykumar999.github.io/Ideationology-Lab/
 
 -------------------------------
