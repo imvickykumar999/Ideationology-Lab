@@ -1,0 +1,40 @@
+
+Arduino: 1.8.20 Hourly Build 2022/04/25 09:33 (Windows 10), Board: "ESP32S3 Dev Module, Disabled, QIO 80MHz, 4MB (32Mb), Core 1, Core 1, Hardware CDC and JTAG, Disabled, Disabled, Disabled, UART0 / Hardware CDC, Default 4MB with spiffs (1.2MB APP/1.5MB SPIFFS), 240MHz (WiFi), 921600, None"
+
+Sketch uses 203477 bytes (15%) of program storage space. Maximum is 1310720 bytes.
+
+Global variables use 12800 bytes (3%) of dynamic memory, leaving 314880 bytes for local variables. Maximum is 327680 bytes.
+
+esptool.py v3.3
+
+Traceback (most recent call last):
+
+Serial port COM3
+
+  File "esptool.py", line 5387, in <module>
+
+  File "esptool.py", line 5380, in _main
+
+  File "esptool.py", line 4687, in main
+
+  File "esptool.py", line 114, in get_default_connected_device
+
+  File "esptool.py", line 320, in __init__
+
+  File "serial\__init__.py", line 90, in serial_for_url
+
+  File "serial\serialwin32.py", line 64, in open
+
+serial.serialutil.SerialException: could not open port 'COM3': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+
+[21020] Failed to execute script 'esptool' due to unhandled exception!
+
+the selected serial port [21020] Failed to execute script 'esptool' due to unhandled exception!
+
+ does not exist or your board is not connected
+
+
+
+This report would have more information with
+"Show verbose output during compilation"
+option enabled in File -> Preferences.
