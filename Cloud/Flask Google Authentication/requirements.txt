@@ -1,0 +1,8 @@
+requests==2.21.0
+Flask
+oauthlib==3.0.1
+pyOpenSSL
+Flask-Login
+Werkzeug
+jinja2
+itsdangerous
