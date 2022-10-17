@@ -10,6 +10,7 @@ decode_results results;
 void setup()
 {
   Serial.begin(9600);
+  digitalWrite(13,LOW);
   irrecv.enableIRIn(); // Start the receiver
 }
 
@@ -18,20 +19,12 @@ void loop() {
     Serial.println(results.value, HEX);
     irrecv.resume(); // Receive the next value 
 
-    if(results.value==0xA78E696B){ // 1
+    if(results.value==0x7F30BF54){ // 1
       digitalWrite(13,HIGH);
     }
-    else if(results.value==0xBF09EE05){ // 2
+    if(results.value==0xCD519016){ // 2
       digitalWrite(13,LOW);
     }
-
-    if(results.value==0xBF09EE04){ // 3
-      digitalWrite(2,HIGH);
-    }
-    else if(results.value==0xAF8B007B){ // 4
-      digitalWrite(2,LOW);
-    }
-
   }
   delay(100);
 }
