@@ -77,6 +77,8 @@
 
 ## >>> Flask [Tutorial](https://github.com/imvickykumar999/website)
 
+![ss](https://user-images.githubusercontent.com/50515418/154859419-b8b3e8a0-e64d-40fe-895f-cf7c3dcdd75f.png)
+
 ----------------------------------------
 
 ## [MYSQL IDE](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all)
