@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html>
+	<body>
+		<center>
+
+			{% extends "base.html" %}
+			{% block content %}
+
+			{% if session['logged_in'] %}
+				{% if data %}
+
+					<a target='__blank' href="https://www.instagram.com/{{username.lower()}}/">
+						<h3>Followers = {{data}}</h3>
+					</a>
+
+					<br>
+						To Download Images or Videos, Try to Search : 
+						<br>
+						video_url, thumbnail_src
+					<br> <br>
+
+					<input type="text" id="myInput" 
+						onkeyup="myFunction()" 
+						placeholder="Search for names.." 
+						title="Type in a name">
+
+					<br> <br>
+
+					<table id="myTable" border="10">
+						<thead>
+							<tr>
+							<th>Key</th>
+							<th>Value</th>
+							</tr>
+						</thead>
+						
+						<tbody>
+							{% for i in full_data %}
+								{% for key, value in i.items() %}
+									<tr>
+										<td> {{ key }} </td>
+										{% for x, y in value.items() %}
+											<tr>
+												<td> {{ x }} </td>
+												<td> {{ y }} </td>
+											</tr>
+										{% endfor %}
+
+									</tr>
+								{% endfor %}
+							{% endfor %}
+						</tbody>
+					</table>
+
+					<script>
+						function myFunction() {
+							var input, filter, table, tr, td, i, txtValue;
+
+							input = document.getElementById("myInput");
+							filter = input.value.toUpperCase();
+							table = document.getElementById("myTable");
+							tr = table.getElementsByTagName("tr");
+
+							for (i = 0; i < tr.length; i++) {
+								td = tr[i].getElementsByTagName("td")[0];
+								if (td) {
+									txtValue = td.textContent || td.innerText;
+									if (txtValue.toUpperCase().indexOf(filter) > -1) {
+											tr[i].style.display = "";
+										} 
+									else {
+										tr[i].style.display = "none";
+									}
+								}       
+							}
+						}
+					</script>
+
+				{% else %}
+					<h4>
+						Welcome {{session['username']}},
+					</h4>
+					<br>
+					Search Insta Username to get details
+
+					<hr>
+					<form action="/" method="POST">
+						<input type="username" name="username" placeholder="Instagram Username">
+						<input type="submit" value="Finds">
+					</form>
+
+					<hr>
+					<a href="/logout">
+						Logout
+					</a> 
+
+					<br> <br>
+				{% endif %}
+
+			{% else %}
+
+			{% with messages = get_flashed_messages(with_categories=True) %}
+				{% if messages %}
+					{% for category, message in messages %}
+
+						<div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+							<span>{{ message }}</span>
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+							<span aria-hidden="true">×</span>
+							</button>
+						</div>
+
+					{% endfor %}
+				{% endif %}
+			{% endwith %}
+
+			<table border="5">
+				<tbody>
+					<tr>
+						<td>
+							<a href="/login">Login</a> 
+						</td>
+
+						<td>|</td>
+						
+						<td>
+							<a href="/register">Register</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			{% endif %}
+
+		</center>
+	</body>
+</html>
+{% endblock %}
